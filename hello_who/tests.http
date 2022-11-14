@@ -1,0 +1,35 @@
+### Get persons
+GET localhost:1323/persons
+
+### Get Chris Eccleston
+GET localhost:1323/persons/1
+
+### Get doctors
+GET localhost:1323/persons/doctors
+
+### Get writers
+GET localhost:1323/persons/writers
+
+### Get directors
+GET localhost:1323/persons/directors
+
+### Get episodes
+GET localhost:1323/episodes
+
+### Get person's episodes
+GET localhost:1323/persons/1/episodes
+
+### Get 'Rose'
+GET localhost:1323/episodes/1
+
+### Get series 1 episodes
+GET localhost:1323/episodes/series/1
+
+### Get series 1 episode 1
+GET localhost:1323/episodes/series/1/episode/1
+
+### Get episodes from today
+GET localhost:1323/episodes/onthisday
+
+### Get episodes from today result
+GET localhost:1323/episodes/onthisday/<id returned from request above>
