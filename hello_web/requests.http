@@ -1,0 +1,8 @@
+### Hello web
+GET localhost:8080/
+
+### Hello Jon
+GET localhost:8080/?name=Jon
+
+### Hello web JSON
+GET localhost:8080/
